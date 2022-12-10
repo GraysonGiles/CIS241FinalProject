@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>GuestBook Page - Grayson Giles</title>
+	<meta name="author" content="Grayson Giles"/>
+	<meta name="Keywords" content="Grayson Giles, GuestBook, Comment"/>
+	<meta name="Description" content="GuestBook page for Grayson's competency project"/>
+	<meta charset="utf-8"/>
+	<meta name="robots" content="follow"/>
+	<link rel="stylesheet"  type="text/css" href="../css/myStyle.css"/>
+</head>
+
+<body>
+<header><a id="TermTop">
+<img src="../images/banner.jpg" alt="Grayson banner" class="center" width="720" height="360"/>
+</a></header>
+  
+ <ul id="nav">
+  <li><button onclick="window.location.href='../html/home.html';">Home</button>
+  <li><button onclick="window.location.href='../html/interest.html';">Interests</button>
+  <li><button onclick="window.location.href='../html/resume.html';">Resume</button>
+  <li><button onclick="window.location.href='../html/reflections.html';">Reflections</button>
+  <li><button onclick="window.location.href='../html/guestbook.html';">GuestBook</button>
+</ul>
+
+<h1 style="text-align:center"><br>GuestBook</h1>
+ <hr>
+ 
+ <article style="text-align:center"> 
+	<form 
+	method="post"
+	action="mailto:g.giles4862@edmail.edcc.edu">
+	
+Enter Your Name: <input type="text" name="Name" size="40"/>
+<br/>
+<br/>
+Enter Your E-mail: <input type="text" name="Email" size="40"/>
+<br/>
+<br/>
+
+Enter Your Web Site: 
+<textarea name="website" cols="75" rows="2">
+http://
+</textarea>
+<br/>
+<br/>
+
+Where are you from? <input type="text" name="Email" size="40"/>
+<br/>
+<br/>
+What is your age group?<br/>
+<input type="radio" name="AddToList" value="Under 18"/>Under 18<br/>
+<input type="radio" name="AddToList" value="18-30" checked="checked"/>18-30<br/>
+<input type="radio" name="AddToList" value="31-45"/>31-45<br/>
+<input type="radio" name="AddToList" value="46-64"/>46-64<br/>
+<input type="radio" name="AddToList" value="65 and over"/>65 and over<br/>
+<br/>
+Do you like Jazz?
+<input type="checkbox" name="jazz-yes"/><br/>
+<br/>
+What web technologies are you interested in? (choose all that apply):
+<br/>
+<select name="interests" multiple="multiple" size="6">
+<option>HTML</option>
+<option>CSS</option>
+<option>JavaScript</option>
+<option>AJAX</option>
+<option>SQL</option>
+<option>PHP</option>
+</select>
+<br/>
+<br/>
+How did you find my website? <br/>
+<select name="discovery">
+<option>Select one</option>
+<option>I'm a friend</option>
+<option>A friend directed me to your site</option>
+<option>School Web Site</option>
+<option>A search engine directed me to your site</option>
+<option>I ran across your site by accident</option>
+<option>I have no idea how I even got here</option>
+<option>Other</option>
+</select>
+<br/>
+<br/>
+
+Comments:<br/>
+<textarea name="comments" cols="50" rows="4">
+Enter your message here.
+</textarea>
+<br/>
+<br/>
+<input type="submit" value="Submit"/>
+<input type="reset"/>
+</form>
+ 
+ </article>
+ 
+ 
+<footer>
+<h3 style="text-align:center"><a href="#TermTop">Back To Top</a></h3>
+</footer>
+
+ </body>
+ </html>

@@ -1,0 +1,112 @@
+/* STYLE SHEET FOR Grayson Website */
+
+h1
+{
+font-weight: bold; 
+font-size: 350%;
+font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
+color:black;	
+text-shadow: 1px 1px maroon;
+}
+
+h2
+{
+font-weight: bold; 
+font-size: 200%; 
+font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
+}
+
+h3
+{
+font-weight: bold; 
+font-size: 120%;
+font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
+}
+
+h4
+{
+font-weight: bold;
+font-size: 110%;
+font-family:  Arial, Helvetica, Geneva, Swiss, sans-serif;
+}
+
+form
+{
+padding-left:100px;
+padding-bottom:50px;
+}
+
+article 	
+{	
+font-size:22px;
+color:black;
+padding-left: 25px;
+padding-right: 25px;
+margin-left:10%;
+margin-right:10%;
+background-color:#ffffee;
+}
+
+#nav {
+margin-left: auto;
+margin-right: auto;
+max-width:790px;
+list-style:none;
+}
+
+#nav li {
+float:left;
+}
+
+
+html {
+  min-height: 100%;
+}
+body {
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  font-family: Aldrich, Helvitca, Arial, sans-serif;
+}
+
+img.center 
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+button
+{
+font-size: 16px;
+color:white;
+margin-left:auto;
+margin-right:auto;	
+height:60px;
+max-width:20%;
+min-width:150px;
+background-image: linear-gradient(to right, #0093E9 0%, #314755 100%);
+}
+
+table
+{
+margin-right:auto;
+margin-left:auto;
+border:3px solid black;
+width: 75%
+}
+
+ul 
+{
+margin: 0;
+}
+
+p.margin
+{
+margin-right: 20px;
+margin-left: 20px;	
+}
+
+td
+{
+padding-left: 30px;	
+padding-right: 30px;
+}
